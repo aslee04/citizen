@@ -1,0 +1,605 @@
+*{margin: 0;padding: 0;}
+
+// Настрайки шрифтов
+@import "fonts";
+
+body{
+  width: 2000px;
+  margin: auto;
+  background-image: url("../img/bg-body.png");
+  header{
+    background-image: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .container{
+      .content1{
+        border-bottom: 1px solid #847f84;
+        .col-lg-4{
+          ul{
+            li{
+              padding-right: 15px;
+              a{
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                  color: #e3c794;
+                  transition: .5s;
+                }
+              }
+            }
+          }
+        }
+        .col-lg-4{
+          .logo{
+            padding-left: 70px;
+          }
+        }
+        .col-lg-4{
+          .contacts{
+            padding-left: 150px;
+            .phone-icon{
+              img{
+                padding-right: 20px;
+              }
+            }
+            .contact{
+              span{}
+            }
+          }
+        }
+      }
+      .content2{
+        .col-lg-12{
+          .navbar{
+            .navbar-collapse{
+              ul{
+                li{
+                  .nav-link{
+                    color: #fff;
+                    border-bottom: 1px solid #4F444C;
+                    &:hover{
+                      border-bottom: 1px solid #e3c794;
+                      transition: .5s;
+                    }
+                  }
+                  .dropdown-menu{
+                    background-color: #938a90;
+                    .dropdown-item{
+                      color: #fff;
+                      &:hover{
+                        background-color: #b3a392;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .content3{
+        padding-top: 300px;
+        padding-bottom: 350px;
+        .col-lg-10{
+          h1{
+            @include EtelkaMediumProBold;
+            color: #e3c794;
+          }
+          h3{
+            @include EtelkaMediumProBold;
+            color: #eff1f4;
+          }
+          p{
+            @include ProximaNovaRegular;
+            color: #eff1f4;
+          }
+          .btn{
+            background-color: #e3c794;
+            border-radius: 0;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            &:hover{
+              background-color: #f5d79d;
+              transition: .3s;
+            }
+            span{
+              @include ProximaNovaLight;
+              padding: 10px 5px;
+          }
+        }
+      }
+        .col-lg-2{
+          .btn{
+            p:nth-child(1){
+              @include ProximaNovaRegular;
+              transform: rotate(-90deg) translateY(-10px) translateX(-24px);
+            }
+            p:nth-child(2){
+              @include ProximaNovaBold;
+              transform: rotate(-90deg) translateY(10px) translateX(30px);
+            }
+            .video-icon{
+              img{}
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main{
+    .section-1{
+      transform: translateY(-85px);
+      .container{
+        .content1{
+          .col-lg-3{
+            .card{
+              .card-body{
+                .location{
+                  img{}
+                }
+                .info{
+                  span{
+                    @include ProximaNovaBold;
+                  }
+                  p{
+                    @include ProximaNovaLight;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .content2{
+          .col-lg-4{
+            .card{
+              .card-body{
+                h2{
+                  @include EtelkaMediumProBold;
+                  span{
+                    color: #c19b46;
+                  }
+                }
+                h5{
+                  @include EtelkaMediumPro;
+                }
+                p{
+                  @include ProximaNovaLight;
+                }
+              }
+              .card-footer{
+                .btn{
+                  background-color: #e3c794;
+                  border-radius: 0;
+                  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+                  &:hover{
+                    background-color: #f5d79d;
+                    transition: .3s;
+                  }
+                  span{
+                    @include ProximaNovaLight;
+                    padding: 10px 5px;
+                  }
+                  img{}
+                }
+              }
+            }
+          }
+          .col-lg-4{
+            .box1{
+              img{}
+            }
+            .box2{
+              img{}
+            }
+          }
+          .col-lg-4{
+            .box3{
+              img{}
+            }
+          }
+        }
+      }
+    }
+    .section-2{
+      .container-fluid{
+        width: 2000px;
+        margin: auto;
+        .row{
+          .col-lg-3{
+            .box{
+              overflow: hidden;
+              cursor: pointer;
+              width: 111%;
+              .box-body{
+                background-color: #131A22;
+                img{}
+                &:hover .overlay-text{
+                  display: block;
+                }
+                &:hover img{
+                  transform: scale(1.13);
+                  transition: 0.8s;
+                  display: block;
+                  opacity: .5;
+                }
+                position: relative;
+                .overlay-text{
+                  position: absolute;
+                  display: none;
+                  .row{
+                    .col-md-2{
+                      img{
+                        opacity: 1 !important;
+                      }
+                    }
+                    .col-md-6{
+                      span{
+                        @include ProximaNovaBold;
+                      }
+                    }
+                    .col-md-4{
+                      span{
+                        @include EtelkaTextProBold;
+                        opacity: .5;
+                      }
+                    }
+                  }
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                }
+                img{}
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-3{
+      .container{
+        .row{
+          .col-lg-6{
+            h2{
+              @include EtelkaMediumProBold;
+              span{
+                color: #c19b46;
+              }
+            }
+            p{
+              @include ProximaNovaLight;
+            }
+            .box{
+              .box1{
+                ul{
+                  li{
+                    .next-icon-right{
+                      img{}
+                    }
+                    a{
+                      @include ProximaNovaLight;
+                      text-decoration: none;
+                      color: #000;
+                      &:hover{
+                        color: #c19b46;
+                      }
+                    }
+                  }
+                }
+              }
+              .box2{
+                ul{
+                  li{
+                    .next-icon-right{
+                      img{}
+                    }
+                    a{
+                      @include ProximaNovaLight;
+                      text-decoration: none;
+                      color: #000;
+                      &:hover{
+                        color: #c19b46;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .col-lg-6{}
+        }
+      }
+    }
+    .section-4{
+      background-color: #f4f4f4;
+      .container{
+        .row{
+          .col-md-12{
+            h2{
+              @include EtelkaMediumProBold;
+              span{
+                color: #c19b46;
+              }
+            }
+          }
+          .col-lg-4{
+            .card{
+              .card-header{
+                img{}
+              }
+              .card-body{
+                p{
+                  @include ProximaNovaExtrabld;
+                }
+                .geo-info{
+                  .geo-img{
+                    img{}
+                  }
+                  p{
+                    @include ProximaNovaRegular;
+                    padding-left: 8px;
+                    color: #7b7b7b;
+                  }
+                }
+              }
+              .card-footer{
+                border-top: 1px solid #b7b7b7;
+                .about{
+                  border-right: 1px solid #b7b7b7;
+                  span{
+                    @include ProximaNovaRegular;
+                    color: #7b7b7b;
+                    padding-left: 10px;
+                    padding-right: 13px;
+                  }
+                }
+                .btn{
+                  @include ProximaNovaRegular;
+                  border-radius: 0;
+                  padding-left: 16px;
+                  &:hover{
+                    background-color: #e3c794;
+                  }
+                }
+              }
+            }
+          }
+          .col-md-2{
+            .btn{
+              background-color: #e3c794;
+              border-radius: 0;
+              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+              &:hover{
+                background-color: #f5d79d;
+                transition: .3s;
+              }
+              span{
+                @include ProximaNovaLight;
+                padding: 10px 5px;
+              }
+              img{}
+            }
+          }
+        }
+      }
+    }
+    .section-5{
+      background-image: url("../img/bg-airlane.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      .container{
+        .content1{
+          .col-md-12{
+            h2{
+              @include EtelkaMediumProBold;
+              padding-right: 23px;
+              span{
+                color: #c19b46;
+              }
+            }
+          }
+        }
+        .content2{
+          .col-lg-6{
+            p{
+              @include ProximaNovaRegular;
+            }
+            .btn{
+              background-color: #e3c794;
+              border-radius: 0;
+              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+              &:hover{
+                background-color: #f5d79d;
+                transition: .3s;
+              }
+              span{
+                @include ProximaNovaLight;
+                padding: 10px 5px;
+              }
+            }
+          }
+          .col-lg-6{
+            .airlane-img{
+              img{}
+            }
+          }
+        }
+      }
+    }
+    .section-6{
+      .container{
+        .col-md-12{
+          h2{
+            @include EtelkaMediumProBold;
+            span{
+              color: #c19b46;
+            }
+          }
+        }
+        .row{
+          .col-lg-4{
+            .card{
+              .card-header{
+                img{}
+              }
+              .card-body{
+                p:nth-child(1){
+                  @include ProximaNovaExtrabld;
+                  color: #010101;
+                }
+                p:nth-child(2){
+                  @include ProximaNovaLight;
+                  color: #494949;
+                }
+              }
+              .card-footer{
+                border-top: 1px solid #b7b7b7;
+                //.about{
+                //  span:nth-child(1){
+                //    @include ProximaNovaRegular;
+                //    color: #7b7b7b;
+                //    padding-right: 102px;
+                //  }
+                //  span:nth-child(2){
+                //    @include ProximaNovaRegular;
+                //    color: #7b7b7b;
+                //  }
+                //}
+                .btn:nth-child(1){
+                  border-radius: 0;
+                  padding-left: 0;
+                }
+                .btn:nth-child(2){
+                  border-radius: 0;
+                  padding-right: 0;
+                  margin-left: 72px;
+                }
+                .btn:nth-child(3){
+                  @include ProximaNovaRegular;
+                  border-radius: 0;
+                  border-left: 1px solid #b7b7b7;
+                  padding-right: 0;
+                  margin-left: 16px;
+                  //padding-left: 17px;
+                  &:hover{
+                    background-color: #e3c794;
+                  }
+                }
+              }
+            }
+          }
+          .col-md-2{
+            .btn{
+              background-color: #e3c794;
+              border-radius: 0;
+              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+              &:hover{
+                background-color: #f5d79d;
+                transition: .3s;
+              }
+              span{
+                @include ProximaNovaLight;
+                padding: 10px 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-7{
+      .container{
+        .row{
+          .col-md-12{
+            h2{
+              @include EtelkaMediumProBold;
+              span{
+                color: #c19b46;
+              }
+            }
+          }
+          .col-lg-2{}
+        }
+      }
+    }
+    .section-8{
+      .container{
+        .row{
+          .col-md-12{
+            h2{
+              @include EtelkaMediumProBold;
+              span{
+                color: #c19b46;
+              }
+            }
+          }
+          :nth-child(2){
+            right: 60px;
+          }
+          :nth-child(3){
+            top: 30px;
+            right: 60px;
+          }
+          :nth-child(4){
+            padding-top: 10px;
+            right: 20px;
+          }
+          :nth-child(5){
+            padding-top: 5px;
+            left: 30px;
+          }
+          :nth-child(6){
+            padding-top: 15px;
+            left: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  footer{
+    background-image: url("../img/bg-footer.png");
+    background-repeat: no-repeat;
+    .container{
+      .content1{
+        border-bottom: 1px solid #818386;
+        .col-lg-4{
+          img{}
+          p{
+            @include ProximaNovaLight;
+          }
+        }
+        .col-lg-2{
+          p{
+            @include ProximaNovaExtrabld;
+          }
+          ul{
+            li{
+              .left-icon{
+                img{}
+              }
+              a{
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                  color: #424f60;
+                  transition: .3s;
+                }
+              }
+            }
+          }
+          .messengers{
+            i{
+              padding-right: 9px;
+            }
+          }
+        }
+      }
+      .content2{
+        .col-md-12{
+          p{
+            @include GilroyMedium;
+          }
+        }
+      }
+    }
+  }
+}

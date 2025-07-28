@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima Nova Extra Bold';
+  src: url("../fonts/ProximaNova-Extrabld.eot");
+  src: url("../fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Etelka Medium Pro';
+  src: url("../fonts/EtelkaMediumPro.eot");
+  src: url("../fonts/EtelkaMediumPro.eot?#iefix") format("embedded-opentype"), url("../fonts/EtelkaMediumPro.woff") format("woff"), url("../fonts/EtelkaMediumPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Etelka Medium Pro Bold';
+  src: url("../fonts/EtelkaMediumPro-Bold.eot");
+  src: url("../fonts/EtelkaMediumPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EtelkaMediumPro-Bold.woff") format("woff"), url("../fonts/EtelkaMediumPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Etelka Text Pro Bold';
+  src: url("../fonts/EtelkaTextPro-Bold.eot");
+  src: url("../fonts/EtelkaTextPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EtelkaTextPro-Bold.woff") format("woff"), url("../fonts/EtelkaTextPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy Medium';
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.fs-12 {
+  font-size: 12px; }
+
+.fs-13 {
+  font-size: 13px; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.fs-15 {
+  font-size: 15px; }
+
+.fs-16 {
+  font-size: 16px; }
+
+.fs-18 {
+  font-size: 18px; }
+
+.fs-20 {
+  font-size: 20px; }
+
+.fs-22 {
+  font-size: 22px; }
+
+.fs-24 {
+  font-size: 24px; }
+
+.fs-44 {
+  font-size: 44px; }
+
+.fs-46 {
+  font-size: 46px; }
+
+.fs-48 {
+  font-size: 48px; }
+
+.fs-50 {
+  font-size: 50px; }
+
+.fs-60 {
+  font-size: 60px; }
+
+.fs-80 {
+  font-size: 80px; }
+
+.all-link {
+  color: #000000; }
+
+.all-link-white {
+  color: #fff; }
+
+.all-link-red {
+  color: #FF0000; }
+
+body {
+  width: 2000px;
+  margin: auto;
+  background-image: url("../img/bg-body.png"); }
+  body header {
+    background-image: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+    body header .container .content1 {
+      border-bottom: 1px solid #847f84; }
+      body header .container .content1 .col-lg-4 ul li {
+        padding-right: 15px; }
+        body header .container .content1 .col-lg-4 ul li a {
+          text-decoration: none;
+          color: #fff; }
+          body header .container .content1 .col-lg-4 ul li a:hover {
+            color: #e3c794;
+            transition: .5s; }
+      body header .container .content1 .col-lg-4 .logo {
+        padding-left: 70px; }
+      body header .container .content1 .col-lg-4 .contacts {
+        padding-left: 150px; }
+        body header .container .content1 .col-lg-4 .contacts .phone-icon img {
+          padding-right: 20px; }
+    body header .container .content2 .col-lg-12 .navbar .navbar-collapse ul li .nav-link {
+      color: #fff;
+      border-bottom: 1px solid #4F444C; }
+      body header .container .content2 .col-lg-12 .navbar .navbar-collapse ul li .nav-link:hover {
+        border-bottom: 1px solid #e3c794;
+        transition: .5s; }
+    body header .container .content2 .col-lg-12 .navbar .navbar-collapse ul li .dropdown-menu {
+      background-color: #938a90; }
+      body header .container .content2 .col-lg-12 .navbar .navbar-collapse ul li .dropdown-menu .dropdown-item {
+        color: #fff; }
+        body header .container .content2 .col-lg-12 .navbar .navbar-collapse ul li .dropdown-menu .dropdown-item:hover {
+          background-color: #b3a392; }
+    body header .container .content3 {
+      padding-top: 300px;
+      padding-bottom: 350px; }
+      body header .container .content3 .col-lg-10 h1 {
+        font-family: "Etelka Medium Pro Bold", sans-serif;
+        color: #e3c794; }
+      body header .container .content3 .col-lg-10 h3 {
+        font-family: "Etelka Medium Pro Bold", sans-serif;
+        color: #eff1f4; }
+      body header .container .content3 .col-lg-10 p {
+        font-family: 'Proxima Nova Regular', sans-serif;
+        color: #eff1f4; }
+      body header .container .content3 .col-lg-10 .btn {
+        background-color: #e3c794;
+        border-radius: 0;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+        body header .container .content3 .col-lg-10 .btn:hover {
+          background-color: #f5d79d;
+          transition: .3s; }
+        body header .container .content3 .col-lg-10 .btn span {
+          font-family: 'Proxima Nova Light', sans-serif;
+          padding: 10px 5px; }
+      body header .container .content3 .col-lg-2 .btn p:nth-child(1) {
+        font-family: 'Proxima Nova Regular', sans-serif;
+        transform: rotate(-90deg) translateY(-10px) translateX(-24px); }
+      body header .container .content3 .col-lg-2 .btn p:nth-child(2) {
+        font-family: 'Proxima Nova Bold', sans-serif;
+        transform: rotate(-90deg) translateY(10px) translateX(30px); }
+  body main .section-1 {
+    transform: translateY(-85px); }
+    body main .section-1 .container .content1 .col-lg-3 .card .card-body .info span {
+      font-family: 'Proxima Nova Bold', sans-serif; }
+    body main .section-1 .container .content1 .col-lg-3 .card .card-body .info p {
+      font-family: 'Proxima Nova Light', sans-serif; }
+    body main .section-1 .container .content2 .col-lg-4 .card .card-body h2 {
+      font-family: "Etelka Medium Pro Bold", sans-serif; }
+      body main .section-1 .container .content2 .col-lg-4 .card .card-body h2 span {
+        color: #c19b46; }
+    body main .section-1 .container .content2 .col-lg-4 .card .card-body h5 {
+      font-family: "Etelka Medium Pro", sans-serif; }
+    body main .section-1 .container .content2 .col-lg-4 .card .card-body p {
+      font-family: 'Proxima Nova Light', sans-serif; }
+    body main .section-1 .container .content2 .col-lg-4 .card .card-footer .btn {
+      background-color: #e3c794;
+      border-radius: 0;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+      body main .section-1 .container .content2 .col-lg-4 .card .card-footer .btn:hover {
+        background-color: #f5d79d;
+        transition: .3s; }
+      body main .section-1 .container .content2 .col-lg-4 .card .card-footer .btn span {
+        font-family: 'Proxima Nova Light', sans-serif;
+        padding: 10px 5px; }
+  body main .section-2 .container-fluid {
+    width: 2000px;
+    margin: auto; }
+    body main .section-2 .container-fluid .row .col-lg-3 .box {
+      overflow: hidden;
+      cursor: pointer;
+      width: 111%; }
+      body main .section-2 .container-fluid .row .col-lg-3 .box .box-body {
+        background-color: #131A22;
+        position: relative; }
+        body main .section-2 .container-fluid .row .col-lg-3 .box .box-body:hover .overlay-text {
+          display: block; }
+        body main .section-2 .container-fluid .row .col-lg-3 .box .box-body:hover img {
+          transform: scale(1.13);
+          transition: 0.8s;
+          display: block;
+          opacity: .5; }
+        body main .section-2 .container-fluid .row .col-lg-3 .box .box-body .overlay-text {
+          position: absolute;
+          display: none;
+          left: 0;
+          bottom: 0;
+          width: 100%; }
+          body main .section-2 .container-fluid .row .col-lg-3 .box .box-body .overlay-text .row .col-md-2 img {
+            opacity: 1 !important; }
+          body main .section-2 .container-fluid .row .col-lg-3 .box .box-body .overlay-text .row .col-md-6 span {
+            font-family: 'Proxima Nova Bold', sans-serif; }
+          body main .section-2 .container-fluid .row .col-lg-3 .box .box-body .overlay-text .row .col-md-4 span {
+            font-family: "Etelka Text Pro Bold", sans-serif;
+            opacity: .5; }
+  body main .section-3 .container .row .col-lg-6 h2 {
+    font-family: "Etelka Medium Pro Bold", sans-serif; }
+    body main .section-3 .container .row .col-lg-6 h2 span {
+      color: #c19b46; }
+  body main .section-3 .container .row .col-lg-6 p {
+    font-family: 'Proxima Nova Light', sans-serif; }
+  body main .section-3 .container .row .col-lg-6 .box .box1 ul li a {
+    font-family: 'Proxima Nova Light', sans-serif;
+    text-decoration: none;
+    color: #000; }
+    body main .section-3 .container .row .col-lg-6 .box .box1 ul li a:hover {
+      color: #c19b46; }
+  body main .section-3 .container .row .col-lg-6 .box .box2 ul li a {
+    font-family: 'Proxima Nova Light', sans-serif;
+    text-decoration: none;
+    color: #000; }
+    body main .section-3 .container .row .col-lg-6 .box .box2 ul li a:hover {
+      color: #c19b46; }
+  body main .section-4 {
+    background-color: #f4f4f4; }
+    body main .section-4 .container .row .col-md-12 h2 {
+      font-family: "Etelka Medium Pro Bold", sans-serif; }
+      body main .section-4 .container .row .col-md-12 h2 span {
+        color: #c19b46; }
+    body main .section-4 .container .row .col-lg-4 .card .card-body p {
+      font-family: 'Proxima Nova Extra Bold', sans-serif; }
+    body main .section-4 .container .row .col-lg-4 .card .card-body .geo-info p {
+      font-family: 'Proxima Nova Regular', sans-serif;
+      padding-left: 8px;
+      color: #7b7b7b; }
+    body main .section-4 .container .row .col-lg-4 .card .card-footer {
+      border-top: 1px solid #b7b7b7; }
+      body main .section-4 .container .row .col-lg-4 .card .card-footer .about {
+        border-right: 1px solid #b7b7b7; }
+        body main .section-4 .container .row .col-lg-4 .card .card-footer .about span {
+          font-family: 'Proxima Nova Regular', sans-serif;
+          color: #7b7b7b;
+          padding-left: 10px;
+          padding-right: 13px; }
+      body main .section-4 .container .row .col-lg-4 .card .card-footer .btn {
+        font-family: 'Proxima Nova Regular', sans-serif;
+        border-radius: 0;
+        padding-left: 16px; }
+        body main .section-4 .container .row .col-lg-4 .card .card-footer .btn:hover {
+          background-color: #e3c794; }
+    body main .section-4 .container .row .col-md-2 .btn {
+      background-color: #e3c794;
+      border-radius: 0;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+      body main .section-4 .container .row .col-md-2 .btn:hover {
+        background-color: #f5d79d;
+        transition: .3s; }
+      body main .section-4 .container .row .col-md-2 .btn span {
+        font-family: 'Proxima Nova Light', sans-serif;
+        padding: 10px 5px; }
+  body main .section-5 {
+    background-image: url("../img/bg-airlane.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+    body main .section-5 .container .content1 .col-md-12 h2 {
+      font-family: "Etelka Medium Pro Bold", sans-serif;
+      padding-right: 23px; }
+      body main .section-5 .container .content1 .col-md-12 h2 span {
+        color: #c19b46; }
+    body main .section-5 .container .content2 .col-lg-6 p {
+      font-family: 'Proxima Nova Regular', sans-serif; }
+    body main .section-5 .container .content2 .col-lg-6 .btn {
+      background-color: #e3c794;
+      border-radius: 0;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+      body main .section-5 .container .content2 .col-lg-6 .btn:hover {
+        background-color: #f5d79d;
+        transition: .3s; }
+      body main .section-5 .container .content2 .col-lg-6 .btn span {
+        font-family: 'Proxima Nova Light', sans-serif;
+        padding: 10px 5px; }
+  body main .section-6 .container .col-md-12 h2 {
+    font-family: "Etelka Medium Pro Bold", sans-serif; }
+    body main .section-6 .container .col-md-12 h2 span {
+      color: #c19b46; }
+  body main .section-6 .container .row .col-lg-4 .card .card-body p:nth-child(1) {
+    font-family: 'Proxima Nova Extra Bold', sans-serif;
+    color: #010101; }
+  body main .section-6 .container .row .col-lg-4 .card .card-body p:nth-child(2) {
+    font-family: 'Proxima Nova Light', sans-serif;
+    color: #494949; }
+  body main .section-6 .container .row .col-lg-4 .card .card-footer {
+    border-top: 1px solid #b7b7b7; }
+    body main .section-6 .container .row .col-lg-4 .card .card-footer .btn:nth-child(1) {
+      border-radius: 0;
+      padding-left: 0; }
+    body main .section-6 .container .row .col-lg-4 .card .card-footer .btn:nth-child(2) {
+      border-radius: 0;
+      padding-right: 0;
+      margin-left: 72px; }
+    body main .section-6 .container .row .col-lg-4 .card .card-footer .btn:nth-child(3) {
+      font-family: 'Proxima Nova Regular', sans-serif;
+      border-radius: 0;
+      border-left: 1px solid #b7b7b7;
+      padding-right: 0;
+      margin-left: 16px; }
+      body main .section-6 .container .row .col-lg-4 .card .card-footer .btn:nth-child(3):hover {
+        background-color: #e3c794; }
+  body main .section-6 .container .row .col-md-2 .btn {
+    background-color: #e3c794;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+    body main .section-6 .container .row .col-md-2 .btn:hover {
+      background-color: #f5d79d;
+      transition: .3s; }
+    body main .section-6 .container .row .col-md-2 .btn span {
+      font-family: 'Proxima Nova Light', sans-serif;
+      padding: 10px 5px; }
+  body main .section-7 .container .row .col-md-12 h2 {
+    font-family: "Etelka Medium Pro Bold", sans-serif; }
+    body main .section-7 .container .row .col-md-12 h2 span {
+      color: #c19b46; }
+  body main .section-8 .container .row .col-md-12 h2 {
+    font-family: "Etelka Medium Pro Bold", sans-serif; }
+    body main .section-8 .container .row .col-md-12 h2 span {
+      color: #c19b46; }
+  body main .section-8 .container .row :nth-child(2) {
+    right: 60px; }
+  body main .section-8 .container .row :nth-child(3) {
+    top: 30px;
+    right: 60px; }
+  body main .section-8 .container .row :nth-child(4) {
+    padding-top: 10px;
+    right: 20px; }
+  body main .section-8 .container .row :nth-child(5) {
+    padding-top: 5px;
+    left: 30px; }
+  body main .section-8 .container .row :nth-child(6) {
+    padding-top: 15px;
+    left: 60px; }
+  body footer {
+    background-image: url("../img/bg-footer.png");
+    background-repeat: no-repeat; }
+    body footer .container .content1 {
+      border-bottom: 1px solid #818386; }
+      body footer .container .content1 .col-lg-4 p {
+        font-family: 'Proxima Nova Light', sans-serif; }
+      body footer .container .content1 .col-lg-2 p {
+        font-family: 'Proxima Nova Extra Bold', sans-serif; }
+      body footer .container .content1 .col-lg-2 ul li a {
+        text-decoration: none;
+        color: #fff; }
+        body footer .container .content1 .col-lg-2 ul li a:hover {
+          color: #424f60;
+          transition: .3s; }
+      body footer .container .content1 .col-lg-2 .messengers i {
+        padding-right: 9px; }
+    body footer .container .content2 .col-md-12 p {
+      font-family: "Gelroy Medium", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
